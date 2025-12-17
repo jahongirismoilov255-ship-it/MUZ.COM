@@ -1,6 +1,6 @@
 const materiallar = [
 	{audioHref: "aud1.mp3"},
-	{audioHref: "aud2.mp3"},
+	{audioHref: "aud2.m4a"},
 	{audioHref: "aud3.m4a"},
 	{audioHref: "aud4.m4a"},
 	{audioHref: "aud5.m4a"},
@@ -9,7 +9,7 @@ const materiallar = [
 	{audioHref: "aud8.m4a"},
 	{audioHref: "aud9.m4a"},
 	{audioHref: "aud10.m4a"},
-	{audioHref: "aud11.m4a"},
+	{audioHref: "aud11.mp3"},
 	{audioHref: "aud12.m4a"},
 	{audioHref: "aud13.m4a"},
 ]
