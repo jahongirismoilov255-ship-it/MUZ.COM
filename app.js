@@ -20,9 +20,10 @@ materiallar.forEach(material => {
 	} else if (material.type === "audio") {
 		container.innerHTML += `<audio controls class="audio"><source src="${material.audioHref}" type="audio/mpeg"></audio><a href="${material.audioHref}" download>${svgDownload}</a>`;
 	}else if (material.type === "video") {
-		container.innerHTML += `<video controls class="video"><source src="${material.videoHref}" type="video/mp4"></video>a href="${material.videoHref}" download>${svgDownload}</a>`;
+		container.innerHTML += `<video controls class="video"><source src="${material.videoHref}" type="video/mp4"></video><a href="${material.videoHref}" download>${svgDownload}</a>`;
 	}
 	asosiyTana.appendChild(container);
 
 })
+
 
